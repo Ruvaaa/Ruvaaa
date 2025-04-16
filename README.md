@@ -1,0 +1,7 @@
+- 👋 Hi, I’m Ruvaaa
+- 👀 I’m interested in Artificial Intelligence, Machine Learning, Deep Learning and Quantum Computing
+- 🌱 I’m currently learning all of the above
+- 💞️ I’m looking to collaborate on anything that's absolutely amazing
+- 📫 How to reach me email - ruv.aaaasn@gmail.com , phone number - +263784043110
+- 😄 Pronouns: she/her
+- ⚡ Fun fact: ...Dreams of building AI that changes Africa before turning 30, and be on the Forbes Africa 30 under 30 list
