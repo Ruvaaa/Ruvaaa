@@ -36,37 +36,39 @@ I learn best by building things, breaking them, figuring out why they broke, and
 
 # Projects
 
-A few things I've made along the way.
+Some things I've actually shipped.
 
-### CodeLearner
+<table>
+  <tr>
+    <td width="50%">
+      <h3>CodeLearner</h3>
+      <p>An interactive coding-learning project built around making the learning process more engaging.</p>
+      <sub>Python · AI · Education</sub>
+    </td>
+    <td width="50%">
+      <h3>MirrorMe</h3>
+      <p>An AI conversational project exploring human–AI interaction.</p>
+      <sub>Python · NLP · LLMs · Streamlit</sub>
+    </td>
+  </tr>
 
-A project focused on making learning to code more interactive.
-
-**Python · AI · Education**
-
-### MirrorMe
-
-An AI conversational project exploring human–AI interaction.
-
-**Python · NLP · LLMs · Streamlit**
-
-### Minionese Translator
-
-Because apparently the world needed a translator for Minionese.
-
-**Python · NLP · Web**
-
-### VS Code Themes
-
-I also make things for people who spend far too much time staring at their code editor.
-
-**Dark Midnight Pink** · **Blue** · **ColorTastic** · **Orchid**
-
-**VS Code · Themes · Design**
+  <tr>
+    <td width="50%">
+      <h3>Minionese Translator</h3>
+      <p>A translator for the language of everyone's favourite yellow creatures.</p>
+      <sub>Python · NLP · Web</sub>
+    </td>
+    <td width="50%">
+      <h3>VS Code Themes</h3>
+      <p>A collection of themes for people who like their code editors a little less boring.</p>
+      <sub>Dark Midnight Pink · Blue · ColorTastic · Orchid</sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://ruva.dev">
-    <b>→ Explore more of my work at ruva.dev</b>
+    <b>→ More projects & experiments at ruva.dev</b>
   </a>
 </p>
 
@@ -114,7 +116,7 @@ I write about things I'm learning, building, and figuring out along the way.
 
 <p align="center">
   <a href="https://ruva.hashnode.dev">
-    <img src="https://img.shields.io/badge/Read%20my%20blog-111111?style=for-the-badge&logo=hashnode&logoColor=FF69B4" />
+    <img src="https://img.shields.io/badge/ruva.hashnode.dev-111111?style=for-the-badge&logo=hashnode&logoColor=FF69B4" />
   </a>
 </p>
 
@@ -131,6 +133,14 @@ I write about things I'm learning, building, and figuring out along the way.
   <img src="https://streak-stats.demolab.com/?user=Ruvaaa&theme=omni&hide_border=true" width="70%" />
 </p>
 
+<p align="center">
+  <b>Contribution activity</b>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ruvaaa&bg_color=0D1117&color=FF69B4&line=FF69B4&point=FFFFFF&area=true&hide_border=true" width="95%" />
+</p>
+
 ---
 
 # Contribution Snake
@@ -139,15 +149,16 @@ I write about things I'm learning, building, and figuring out along the way.
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg?v=1"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg?v=2"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=1"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=2"
     />
     <img
       alt="GitHub Contribution Snake"
-      src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=1"
+      src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=2"
+      width="95%"
     />
   </picture>
 </p>
@@ -160,8 +171,6 @@ I write about things I'm learning, building, and figuring out along the way.
 
 # Beyond Code
 
-I'm multi-faceted.
-
 **Crochet · Skincare · Fitness · Formula 1 · Reading · Making things**
 
 There has to be life outside the terminal.
@@ -173,7 +182,7 @@ There has to be life outside the terminal.
 <p align="center">
 
   <a href="https://ruva.dev">
-    <img src="https://img.shields.io/badge/ruva.dev-111111?style=for-the-badge&logo=googlechrome&logoColor=FF69B4" />
+    <img src="https://img.shields.io/badge/Website-111111?style=for-the-badge&logo=googlechrome&logoColor=FF69B4" />
   </a>
 
   <a href="https://ruva.hashnode.dev">
