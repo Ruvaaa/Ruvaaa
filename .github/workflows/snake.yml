@@ -14,15 +14,17 @@ runs-on: ubuntu-latest
 
 ```
 steps:
-  - name: Generate pink contribution snake
+  - name: Generate Snake
     uses: Platane/snk/svg-only@v3
     with:
       github_user_name: Ruvaaa
       outputs: |
-        dist/github-contribution-grid-snake.svg?color_snake=%23FF69B4&color_dots=%23FCE4EC%2C%23F8BBD0%2C%23F48FB1%2C%23EC407A%2C%23D81B60
-        dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF69B4&color_dots=%230F080C%2C%23301824%2C%236B2948%2C%23C43C7A%2C%23FF69B4
+        dist/github-contribution-grid-snake.svg?color_snake=pink&color_dots=#FCE4EC,#F8BBD0,#F48FB1,#EC407A,#D81B60
+        dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FF69B4&color_dots=#1A0A12,#4A1830,#8E2C5C,#D94F91,#FF69B4
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  - name: Publish snake
+  - name: Publish Snake
     uses: crazy-max/ghaction-github-pages@v4
     with:
       build_dir: dist
