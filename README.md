@@ -133,21 +133,21 @@ I write about things I'm learning, building, and figuring out along the way.
 
 ---
 
-# 🐍 Contribution Snake
+# Contribution Snake
 
 <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg?v=1"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=1"
     />
     <img
       alt="GitHub Contribution Snake"
-      src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg"
+      src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=1"
     />
   </picture>
 </p>
