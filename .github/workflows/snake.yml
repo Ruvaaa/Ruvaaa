@@ -19,7 +19,7 @@ jobs:
           github_user_name: Ruvaaa
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%23FF69B4&color_dots=%23FFE4E1,%23F8BBD0,%23F48FB1,%23EC407A,%23D81B60
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF69B4&color_dots=%232A0015,%235C0A33,%238E2C5C,%23D94F91,%23FF69B4
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF69B4&color_dots=%231A0A1A,%234A1830,%238E2C5C,%23D94F91,%23FF69B4&palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
