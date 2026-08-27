@@ -125,20 +125,16 @@ I write about things I'm learning, building, and figuring out along the way.
 # GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ruvaaa&show_icons=true&bg_color=0d1117&title_color=ff69b4&text_color=f48fb1&icon_color=ff69b4&hide_border=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ruvaaa&layout=compact&bg_color=0d1117&title_color=ff69b4&text_color=f48fb1&hide_border=true" height="170" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=120&section=header&text=GitHub%20Stats&fontSize=30&fontColor=ff69b4&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ruvaaa&background=0d1117&stroke=ff69b4&ring=ff69b4&fire=ff69b4&currStreakNum=ff69b4&sideNums=f48fb1&currStreakLabel=ff69b4&sideLabels=f48fb1&dates=8e2c5c&hide_border=true" width="70%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ruvaaa&show_icons=true&theme=dark&bg_color=0d1117&title_color=ff69b4&text_color=f48fb1&icon_color=ff69b4&hide_border=true&cache_seconds=1800" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruvaaa&layout=compact&theme=dark&bg_color=0d1117&title_color=ff69b4&text_color=f48fb1&hide_border=true&cache_seconds=1800" height="170" />
 </p>
 
 <p align="center">
-  <b>Contribution activity</b>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ruvaaa&bg_color=0d1117&color=ff69b4&line=ff69b4&point=ffffff&area=true&area_color=8e2c5c&hide_border=true&title_color=ff69b4&text_color=f48fb1" width="95%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ruvaaa&theme=dark&background=0d1117&stroke=ff69b4&ring=ff69b4&fire=ff69b4&currStreakNum=ff69b4&sideNums=f48fb1&currStreakLabel=ff69b4&sideLabels=f48fb1&dates=8e2c5c&hide_border=true" width="75%" />
 </p>
 
 ---
