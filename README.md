@@ -125,12 +125,12 @@ I write about things I'm learning, building, and figuring out along the way.
 # GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ruvaaa&show_icons=true&hide_border=true&theme=omni&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruvaaa&layout=compact&hide_border=true&theme=omni" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ruvaaa&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF69B4&text_color=F48FB1&icon_color=FF69B4&border_color=00000000&include_all_commits=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruvaaa&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF69B4&text_color=F48FB1&border_color=00000000" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Ruvaaa&theme=omni&hide_border=true" width="70%" />
+  <img src="https://streak-stats.demolab.com/?user=Ruvaaa&hide_border=true&background=0D1117&border=00000000&stroke=FF69B4&ring=FF69B4&fire=FF69B4&currStreakNum=FF69B4&sideNums=F48FB1&currStreakLabel=FF69B4&sideLabels=F48FB1&dates=8E2C5C" width="70%" />
 </p>
 
 <p align="center">
@@ -138,7 +138,7 @@ I write about things I'm learning, building, and figuring out along the way.
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ruvaaa&bg_color=0D1117&color=FF69B4&line=FF69B4&point=FFFFFF&area=true&hide_border=true" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ruvaaa&bg_color=0D1117&color=FF69B4&line=FF69B4&point=FFFFFF&area=true&area_color=8E2C5C&hide_border=true&title_color=FF69B4&text_color=F48FB1" width="95%" />
 </p>
 
 ---
