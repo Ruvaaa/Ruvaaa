@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <b>Artificial Intelligence · Deep Learning · Software · Creative Computing</b>
+  <b>Artificial Intelligence · Software · Creative Computing</b>
 </p>
 
 <p align="center">
@@ -24,11 +24,11 @@
 
 # About Me
 
-I'm **Ruva**, a third-year Artificial Intelligence student who enjoys building things at the intersection of **AI, software and creativity**.
+I'm **Ruva**, a third-year Artificial Intelligence student interested in **Deep Learning, Computer Vision, NLP, Robotics, Quantum Computing, and the human mind**.
 
-I'm particularly interested in **Deep Learning, Computer Vision, NLP, Robotics, Quantum Computing, and the human mind**.
+I enjoy moving between AI, software development and creative projects — mostly because I don't like keeping my interests in separate boxes.
 
-I learn best by making things — some useful, some experimental, and some made simply because I wondered if I could.
+I learn best by building things, breaking them, figuring out why they broke, and occasionally making them work.
 
 > **Fun fact:** I'm multi-faceted. I code, crochet, make skincare, go to the gym, follow F1, and somehow still find time to break my own code.
 
@@ -44,23 +44,17 @@ A project focused on making learning to code more interactive.
 
 **Python · AI · Education**
 
----
-
 ### MirrorMe
 
 An AI conversational project exploring human–AI interaction.
 
 **Python · NLP · LLMs · Streamlit**
 
----
-
 ### Minionese Translator
 
 Because apparently the world needed a translator for Minionese.
 
 **Python · NLP · Web**
-
----
 
 ### VS Code Themes
 
@@ -70,11 +64,9 @@ I also make things for people who spend far too much time staring at their code 
 
 **VS Code · Themes · Design**
 
----
-
 <p align="center">
   <a href="https://ruva.dev">
-    <b>→ Explore more at ruva.dev</b>
+    <b>→ Explore more of my work at ruva.dev</b>
   </a>
 </p>
 
@@ -82,18 +74,19 @@ I also make things for people who spend far too much time staring at their code 
 
 # Tech Stack
 
-<p align="center">
+### Languages
 
+<p>
   <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/C%2B%2B-111111?style=for-the-badge&logo=c%2B%2B&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/C%23-111111?style=for-the-badge&logo=csharp&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=FF69B4" />
-
 </p>
 
-<p align="center">
+### AI & Data
 
+<p>
   <img src="https://img.shields.io/badge/PyTorch-111111?style=for-the-badge&logo=pytorch&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/TensorFlow-111111?style=for-the-badge&logo=tensorflow&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/Keras-111111?style=for-the-badge&logo=keras&logoColor=FF69B4" />
@@ -101,17 +94,16 @@ I also make things for people who spend far too much time staring at their code 
   <img src="https://img.shields.io/badge/OpenCV-111111?style=for-the-badge&logo=opencv&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/NumPy-111111?style=for-the-badge&logo=numpy&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas&logoColor=FF69B4" />
-
 </p>
 
-<p align="center">
+### Development
 
+<p>
   <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=next.js&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/Flask-111111?style=for-the-badge&logo=flask&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/Streamlit-111111?style=for-the-badge&logo=streamlit&logoColor=FF69B4" />
   <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=FF69B4" />
-
 </p>
 
 ---
@@ -122,7 +114,7 @@ I write about things I'm learning, building, and figuring out along the way.
 
 <p align="center">
   <a href="https://ruva.hashnode.dev">
-    <img src="https://img.shields.io/badge/ruva.hashnode.dev-111111?style=for-the-badge&logo=hashnode&logoColor=FF69B4" />
+    <img src="https://img.shields.io/badge/Read%20my%20blog-111111?style=for-the-badge&logo=hashnode&logoColor=FF69B4" />
   </a>
 </p>
 
@@ -135,16 +127,33 @@ I write about things I'm learning, building, and figuring out along the way.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruvaaa&layout=compact&hide_border=true&theme=omni" height="170" />
 </p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Ruvaaa&theme=omni&hide_border=true" width="70%" />
+</p>
+
 ---
 
 # 🐍 Contribution Snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg"
+    />
   </picture>
+</p>
+
+<p align="center">
+  <i>Apparently my commits are edible.</i>
 </p>
 
 ---
@@ -164,7 +173,7 @@ There has to be life outside the terminal.
 <p align="center">
 
   <a href="https://ruva.dev">
-    <img src="https://img.shields.io/badge/Website-111111?style=for-the-badge&logo=googlechrome&logoColor=FF69B4" />
+    <img src="https://img.shields.io/badge/ruva.dev-111111?style=for-the-badge&logo=googlechrome&logoColor=FF69B4" />
   </a>
 
   <a href="https://ruva.hashnode.dev">
