@@ -15,15 +15,15 @@ runs-on: ubuntu-latest
 
 ```
 steps:
-  - name: Generate contribution snake
+  - name: Generate pink contribution snake
     uses: Platane/snk/svg-only@v3
     with:
       github_user_name: Ruvaaa
       outputs: |
-        dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=%23FF69B4&color_dots=%23FCE4EC%2C%23F8BBD0%2C%23F48FB1%2C%23EC407A%2C%23D81B60
-        dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FF69B4&color_dots=%2333111F%2C%236B2948%2C%23A83A6C%2C%23D94F91%2C%23FF69B4
+        dist/github-contribution-grid-snake.svg?color_snake=%23FF69B4&color_dots=%23FCE4EC%2C%23F8BBD0%2C%23F48FB1%2C%23EC407A%2C%23D81B60
+        dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF69B4&color_dots=%230F080C%2C%23301824%2C%236B2948%2C%23C43C7A%2C%23FF69B4
 
-  - name: Publish contribution snake
+  - name: Publish snake
     uses: crazy-max/ghaction-github-pages@v4
     with:
       build_dir: dist
