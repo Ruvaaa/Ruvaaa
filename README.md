@@ -136,15 +136,15 @@ I write about things I'm learning, building, and figuring out along the way.
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://cdn.jsdelivr.net/gh/Ruvaaa/Ruvaaa@output/github-contribution-grid-snake-dark.svg"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake-dark.svg?v=main"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://cdn.jsdelivr.net/gh/Ruvaaa/Ruvaaa@output/github-contribution-grid-snake.svg"
+      srcset="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=main"
     />
     <img
       alt="GitHub Contribution Snake"
-      src="https://cdn.jsdelivr.net/gh/Ruvaaa/Ruvaaa@output/github-contribution-grid-snake.svg"
+      src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/output/github-contribution-grid-snake.svg?v=main"
       width="95%"
     />
   </picture>
