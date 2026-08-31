@@ -28,7 +28,9 @@ I'm **Ruva**, a third-year Artificial Intelligence student interested in **Deep 
 
 I enjoy moving between AI, software development and creative projects — mostly because I don't like keeping my interests in separate boxes.
 
-I learn best by building things, breaking them, figuring out why they broke, and occasionally making them work.
+I learn best by building things, breaking them, figuring out why they broke, and occasionally making them work. 
+
+I love doing stuff that seems really hard.
 
 > **Fun fact:** I'm multi-faceted. I code, crochet, make skincare, go to the gym, follow F1, and somehow still find time to break my own code.
 
