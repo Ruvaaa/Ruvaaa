@@ -158,30 +158,32 @@ I write about things I'm learning, building, and figuring out along the way.
 
 ---
 <!-- START CONNECT 4 GAME -->
+<!-- START CONNECT 4 GAME -->
 <div align="center">
   
   <h3>🎮 Community Connect 4</h3>
-  <p>Click a number to drop your disc! 🟣 vs 🌸</p>
+  <p>Click a column number below to drop your disc!</p>
   
-  <!-- The 1-7 drop column text buttons styled to match your accent palette -->
+  <!-- Custom styled text buttons that use emojis matching your pink/purple aesthetic -->
   <p>
-    <a href="https://github.com"><b>[ 1 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 2 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 3 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 4 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 5 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 6 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 7 ]</b></a>
+    <a href="https://github.com"><b>[ 1 🟣 ]</b></a> &nbsp;
+    <a href="https://github.com"><b>[ 2 🌸 ]</b></a> &nbsp;
+    <a href="https://github.com"><b>[ 3 🟣 ]</b></a> &nbsp;
+    <a href="https://github.com"><b>[ 4 🌸 ]</b></a> &nbsp;
+    <a href="https://github.com"><b>[ 5 🟣 ]</b></a> &nbsp;
+    <a href="https://github.com"><b>[ 6 🌸 ]</b></a> &nbsp;
+    <a href="https://github.com"><b>[ 7 🟣 ]</b></a>
   </p>
 
   <br />
-  <!-- The live game board file. This will automatically show once the first move is played -->
+  <!-- The live game board file. This will automatically appear right here once the first move is played -->
   <img src="https://githubusercontent.com" alt="Connect 4 Board Grid" />
   
   <br />
   <img src="https://githubusercontent.com" alt="Game Turn Status" />
 </div>
 <!-- END CONNECT 4 GAME -->
+
 
 ---
 
