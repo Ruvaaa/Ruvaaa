@@ -175,15 +175,14 @@ I write about things I'm learning, building, and figuring out along the way.
     <a href="https://github.com"><b>[ 7 🟣 ]</b></a>
   </p>
 
-  <br />
-  <!-- The live game board file. This will automatically appear right here once the first move is played -->
+    <br />
+  <!-- Updated path to use the main branch -->
   <img src="https://githubusercontent.com" alt="Connect 4 Board Grid" />
   
   <br />
   <img src="https://githubusercontent.com" alt="Game Turn Status" />
 </div>
 <!-- END CONNECT 4 GAME -->
-
 
 ---
 
