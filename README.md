@@ -158,13 +158,12 @@ I write about things I'm learning, building, and figuring out along the way.
 
 ---
 <!-- START CONNECT 4 GAME -->
-<!-- START CONNECT 4 GAME -->
 <div align="center">
   
   <h3>🎮 Community Connect 4</h3>
   <p>Click a column number below to drop your disc!</p>
   
-  <!-- Custom styled text buttons that use emojis matching your pink/purple aesthetic -->
+  <!-- Bulletproof HTML tags to prevent broken query strings -->
   <p>
     <a href="https://github.com"><b>[ 1 🟣 ]</b></a> &nbsp;
     <a href="https://github.com"><b>[ 2 🌸 ]</b></a> &nbsp;
@@ -176,7 +175,7 @@ I write about things I'm learning, building, and figuring out along the way.
   </p>
 
   <br />
-  <!-- Updated path to use the main branch -->
+  <!-- Points directly to your primary repository main branch -->
   <img src="https://githubusercontent.com" alt="Connect 4 Board Grid" />
   
   <br />
