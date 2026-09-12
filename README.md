@@ -157,6 +157,40 @@ I write about things I'm learning, building, and figuring out along the way.
 </p>
 
 ---
+<!-- START CONNECT 4 GAME -->
+<div align="center">
+  <img src="https://githubusercontent.com" alt="Connect 4 Game Status" />
+  
+  <p>Click a column number below to drop your disc! 🔵 vs 🔴</p>
+  
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://githubusercontent.com" width="30" />
+  </a>
+
+  <br />
+  <br />
+  <img src="https://githubusercontent.com" alt="Connect 4 Board" />
+</div>
+<!-- END CONNECT 4 GAME -->
+---
 
 # Beyond Code
 
