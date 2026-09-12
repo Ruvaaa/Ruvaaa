@@ -157,31 +157,60 @@ I write about things I'm learning, building, and figuring out along the way.
 </p>
 
 ---
+
 <!-- START CONNECT 4 GAME -->
 <div align="center">
-  
+
   <h3>🎮 Community Connect 4</h3>
   <p>Click a column number below to drop your disc!</p>
-  
-  <!-- Bulletproof HTML tags to prevent broken query strings -->
+
   <p>
-    <a href="https://github.com"><b>[ 1 🟣 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 2 🌸 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 3 🟣 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 4 🌸 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 5 🟣 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 6 🌸 ]</b></a> &nbsp;
-    <a href="https://github.com"><b>[ 7 🟣 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C1">
+      <b>[ 1 🟣 ]</b>
+    </a>
+    &nbsp;
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C2">
+      <b>[ 2 🌸 ]</b>
+    </a>
+    &nbsp;
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C3">
+      <b>[ 3 🟣 ]</b>
+    </a>
+    &nbsp;
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C4">
+      <b>[ 4 🌸 ]</b>
+    </a>
+    &nbsp;
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C5">
+      <b>[ 5 🟣 ]</b>
+    </a>
+    &nbsp;
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C6">
+      <b>[ 6 🌸 ]</b>
+    </a>
+    &nbsp;
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C7">
+      <b>[ 7 🟣 ]</b>
+    </a>
   </p>
 
   <br />
-  <!-- Points directly to your primary repository main branch -->
-  <img src="https://githubusercontent.com" alt="Connect 4 Board Grid" />
-  
+
+  <img
+    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/board.png"
+    alt="Connect 4 Board"
+    width="350"
+  />
+
   <br />
-  <img src="https://githubusercontent.com" alt="Game Turn Status" />
+
+  <img
+    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/status.png"
+    alt="Connect 4 Game Status"
+  />
+
 </div>
-<!-- END CONNECT 4 GAME -->
+<!-- END CONNECT 4 GAME --
 
 ---
 
