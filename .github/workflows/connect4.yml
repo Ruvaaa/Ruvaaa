@@ -1,0 +1,72 @@
+name: Connect 4
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'connect4|')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install pillow
+          sudo apt-get update -y
+          sudo apt-get install -y fonts-dejavu-core
+
+      - name: Play move
+        id: play
+        run: |
+          RESULT=$(python3 connect4/play.py \
+            --title "${{ github.event.issue.title }}" \
+            --repo "${{ github.repository }}" \
+            --branch "main")
+          echo "$RESULT"
+          echo "comment=$(echo "$RESULT" | python3 -c 'import json,sys; print(json.load(sys.stdin)["comment"])')" >> "$GITHUB_OUTPUT"
+          echo "changed=$(echo "$RESULT" | python3 -c 'import json,sys; print(json.load(sys.stdin)["changed"])')" >> "$GITHUB_OUTPUT"
+
+      - name: Commit board update
+        if: steps.play.outputs.changed == 'True'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add connect4/state.json connect4/board.png connect4/status.png README.md
+          git commit -m "Connect 4: ${{ github.event.issue.title }}"
+          git push
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `${{ steps.play.outputs.comment }}`
+            });
+
+      - name: Close issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });
