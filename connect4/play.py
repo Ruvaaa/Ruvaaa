@@ -29,10 +29,10 @@ ROWS = 6
 COLS = 7
 
 COLORS = {
-    "red": (220, 53, 69),
-    "blue": (0, 123, 255),
+    "pink": (247, 168, 184),
+    "white": (255, 255, 255),
 }
-EMOJI = {"red": "\U0001F534", "blue": "\U0001F535"}  # 🔴 🔵
+EMOJI = {"pink": "\U0001FA77", "white": "\U0001F90D"}  # 🩷 🤍
 EMPTY_COLOR = (235, 235, 240)
 BOARD_BG = (13, 17, 23)  # GitHub dark background
 
