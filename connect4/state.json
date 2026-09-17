@@ -1,0 +1,14 @@
+{
+  "board": [
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null]
+  ],
+  "turn": "red",
+  "status": "in_progress",
+  "winner": null,
+  "moves": 0
+}
