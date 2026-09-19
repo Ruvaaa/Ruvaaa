@@ -48,15 +48,15 @@
     [
       "red",
       null,
-      null,
+      "blue",
       "blue",
       null,
       "red",
       null
     ]
   ],
-  "turn": "blue",
+  "turn": "red",
   "status": "in_progress",
   "winner": null,
-  "moves": 3
+  "moves": 4
 }
