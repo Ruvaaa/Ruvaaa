@@ -29,11 +29,13 @@ ROWS = 6
 COLS = 7
 
 COLORS = {
-    "red": (220, 53, 69),
-    "blue": (0, 123, 255),
+    "red": (255, 20, 147),    # hot pink
+    "blue": (255, 255, 255),  # white
 }
-EMOJI = {"red": "\U0001F534", "blue": "\U0001F535"}  # 🔴 🔵
-EMPTY_COLOR = (235, 235, 240)
+DISPLAY = {"red": "Pink", "blue": "White"}
+EMOJI = {"red": "\U0001FA77", "blue": "\U0001F90D"}  # 🩷 🤍
+EMPTY_OUTLINE = (90, 95, 105)  # subtle hole outline against the dark board
+WHITE_OUTLINE = (255, 20, 147)  # thin pink outline so white hearts read against the dark bg
 BOARD_BG = (13, 17, 23)  # GitHub dark background
 
 FONT_CANDIDATES = [
@@ -43,6 +45,30 @@ FONT_CANDIDATES = [
 
 README_START = "<!-- START CONNECT 4 GAME -->"
 README_END = "<!-- END CONNECT 4 GAME -->"
+
+
+def heart_points(cx, cy, scale):
+    """Points for a heart outline, centered at (cx, cy), using the
+    classic parametric heart curve. `scale` roughly maps to half the
+    heart's width in pixels."""
+    import math
+
+    pts = []
+    for deg in range(0, 360, 4):
+        t = math.radians(deg)
+        x = 16 * math.sin(t) ** 3
+        y = 13 * math.cos(t) - 5 * math.cos(2 * t) - 2 * math.cos(3 * t) - math.cos(4 * t)
+        pts.append((cx + x * scale / 16, cy - y * scale / 16))
+    return pts
+
+
+def draw_heart(draw, cx, cy, size, fill, outline=None, outline_width=3):
+    """Draw a filled heart centered at (cx, cy). `size` is roughly the
+    heart's full width in pixels."""
+    pts = heart_points(cx, cy, size / 2)
+    draw.polygon(pts, fill=fill)
+    if outline:
+        draw.line(pts + [pts[0]], fill=outline, width=outline_width, joint="curve")
 
 
 def load_font(size):
@@ -140,13 +166,20 @@ def render_board(board, path):
     pad = 10
     for r in range(ROWS):
         for c in range(COLS):
-            x0 = margin + c * cell + pad
-            y0 = margin + r * cell + pad
-            x1 = margin + (c + 1) * cell - pad
-            y1 = margin + (r + 1) * cell - pad
+            cx = margin + c * cell + cell / 2
+            cy = margin + r * cell + cell / 2
+            size = cell - pad * 2
             color = board[r][c]
-            fill = COLORS[color] if color else EMPTY_COLOR
-            draw.ellipse([x0, y0, x1, y1], fill=fill)
+            if color is None:
+                # Empty slot: just a faint hole outline.
+                x0, y0 = cx - size / 2, cy - size / 2
+                x1, y1 = cx + size / 2, cy + size / 2
+                draw.ellipse([x0, y0, x1, y1], outline=EMPTY_OUTLINE, width=3)
+            elif color == "blue":
+                # White heart needs an outline to read against the dark board.
+                draw_heart(draw, cx, cy, size, fill=COLORS[color], outline=WHITE_OUTLINE)
+            else:
+                draw_heart(draw, cx, cy, size, fill=COLORS[color])
     img.save(path)
 
 
@@ -155,14 +188,17 @@ def render_status(state, path):
     font = load_font(34)
 
     if state["status"] == "won":
-        text = f"{state['winner'].capitalize()} wins! Click a column to start a new game."
+        text = f"{DISPLAY[state['winner']]} wins! Click a column to start a new game."
         color = COLORS[state["winner"]]
+        outline = WHITE_OUTLINE if state["winner"] == "blue" else None
     elif state["status"] == "draw":
         text = "It's a draw! Click a column to start a new game."
         color = (200, 200, 200)
+        outline = None
     else:
-        text = f"{state['turn'].capitalize()}'s turn"
+        text = f"{DISPLAY[state['turn']]}'s turn"
         color = COLORS[state["turn"]]
+        outline = WHITE_OUTLINE if state["turn"] == "blue" else None
 
     # Measure text first so the image is always wide enough (win/draw
     # messages are longer than the plain turn indicator).
@@ -179,8 +215,9 @@ def render_status(state, path):
 
     img = Image.new("RGB", (width, height), BOARD_BG)
     draw = ImageDraw.Draw(img)
-    disc_y0 = (height - disc_d) // 2
-    draw.ellipse([disc_x0, disc_y0, disc_x0 + disc_d, disc_y0 + disc_d], fill=color)
+    disc_cy = height / 2
+    disc_cx = disc_x0 + disc_d / 2
+    draw_heart(draw, disc_cx, disc_cy, disc_d, fill=color, outline=outline)
     tx = disc_x0 + disc_d + left_gap
     ty = (height - th) // 2 - bbox[1]
     draw.text((tx, ty), text, font=font, fill=(255, 255, 255))
@@ -299,9 +336,9 @@ def main():
             result["changed"] = True
         elif color != state["turn"]:
             result["comment"] = (
-                f"It's **{state['turn']}**'s turn right now, not {color}'s. "
-                "No move was made - check the README for the current turn "
-                "and try again."
+                f"It's **{DISPLAY[state['turn']]}**'s turn right now, not "
+                f"{DISPLAY[color]}'s. No move was made - check the README "
+                "for the current turn and try again."
             )
         else:
             row = drop_disc(state["board"], col, color)
@@ -314,7 +351,7 @@ def main():
                 if check_winner(state["board"], row, col, color):
                     state["status"] = "won"
                     state["winner"] = color
-                    result["comment"] = f"{color.capitalize()} wins! \U0001F389"
+                    result["comment"] = f"{DISPLAY[color]} wins! \U0001F389"
                 elif board_full(state["board"]):
                     state["status"] = "draw"
                     result["comment"] = "It's a draw!"
@@ -322,7 +359,7 @@ def main():
                     state["turn"] = "blue" if color == "red" else "red"
                     result["comment"] = (
                         f"Disc dropped in column {col + 1}. "
-                        f"{state['turn'].capitalize()}'s turn next."
+                        f"{DISPLAY[state['turn']]}'s turn next."
                     )
                 save_state(args.state, state)
                 result["changed"] = True
