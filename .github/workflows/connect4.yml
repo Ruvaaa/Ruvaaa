@@ -31,13 +31,20 @@ jobs:
 
       - name: Play move
         id: play
+        env:
+          # Passed as an env var, not interpolated into the script text,
+          # so an untrusted issue title can never break out of the
+          # command or inject shell code - it's always just a string value.
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
           RESULT=$(python3 connect4/play.py \
-            --title "${{ github.event.issue.title }}" \
+            --title "$ISSUE_TITLE" \
             --repo "${{ github.repository }}" \
             --branch "main")
           echo "$RESULT"
-          echo "comment=$(echo "$RESULT" | python3 -c 'import json,sys; print(json.load(sys.stdin)["comment"])')" >> "$GITHUB_OUTPUT"
+          echo "comment<<COMMENT_EOF" >> "$GITHUB_OUTPUT"
+          echo "$RESULT" | python3 -c 'import json,sys; print(json.load(sys.stdin)["comment"])' >> "$GITHUB_OUTPUT"
+          echo "COMMENT_EOF" >> "$GITHUB_OUTPUT"
           echo "changed=$(echo "$RESULT" | python3 -c 'import json,sys; print(json.load(sys.stdin)["changed"])')" >> "$GITHUB_OUTPUT"
 
       - name: Commit board update
@@ -46,18 +53,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add connect4/state.json connect4/board.png connect4/status.png README.md
-          git commit -m "Connect 4: ${{ github.event.issue.title }}"
+          git commit -m "Connect 4 move"
           git push
 
       - name: Comment on issue
         uses: actions/github-script@v7
+        env:
+          # Same principle: the comment text (which may contain
+          # backticks, quotes, ${...}, etc.) is read from process.env
+          # inside the script rather than spliced into the script's
+          # source text, so it can never be parsed as code.
+          COMMENT: ${{ steps.play.outputs.comment }}
         with:
           script: |
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `${{ steps.play.outputs.comment }}`
+              body: process.env.COMMENT
             });
 
       - name: Close issue
