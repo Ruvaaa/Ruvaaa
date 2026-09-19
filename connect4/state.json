@@ -39,7 +39,7 @@
     [
       null,
       null,
-      null,
+      "red",
       null,
       null,
       null,
@@ -55,8 +55,8 @@
       null
     ]
   ],
-  "turn": "red",
+  "turn": "blue",
   "status": "in_progress",
   "winner": null,
-  "moves": 4
+  "moves": 5
 }
