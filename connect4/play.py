@@ -39,6 +39,7 @@ WHITE_OUTLINE = (255, 20, 147)  # thin pink outline so white hearts read against
 BOARD_BG = (13, 17, 23)  # GitHub dark background
 
 FONT_CANDIDATES = [
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "DejaVuSans-Bold.ttf"),
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
 ]
@@ -369,6 +370,12 @@ def main():
         render_status(state, args.status_out)
         block = build_readme_block(state, args.repo, args.branch, state["moves"])
         update_readme(args.readme, block)
+
+    owner = args.repo.split("/")[0]
+    result["comment"] += (
+        f"\n\n[\u2b05 Back to the board](https://github.com/{owner})"
+        " (the image may take a few seconds to update)."
+    )
 
     print(json.dumps(result))
 
