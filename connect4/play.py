@@ -29,10 +29,10 @@ ROWS = 6
 COLS = 7
 
 COLORS = {
-    "pink": (247, 168, 184),
-    "white": (255, 255, 255),
+    "red": (220, 53, 69),
+    "blue": (0, 123, 255),
 }
-EMOJI = {"pink": "\U0001FA77", "white": "\U0001F90D"}  # 🩷 🤍
+EMOJI = {"red": "\U0001F534", "blue": "\U0001F535"}  # 🔴 🔵
 EMPTY_COLOR = (235, 235, 240)
 BOARD_BG = (13, 17, 23)  # GitHub dark background
 
@@ -283,7 +283,7 @@ def main():
     if parsed is None:
         result["comment"] = (
             "This doesn't look like a valid Connect 4 move "
-            "(expected a title like `connect4|drop|red|3`). No changes made."
+            "(expected a title like 'connect4|drop|red|3'). No changes made."
         )
     else:
         color, col = parsed
