@@ -165,25 +165,25 @@ I write about things I'm learning, building, and figuring out along the way.
   <p>Click a column number below to drop your disc!</p>
 
   <p>
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C1"><b>[ 1 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C1"><b>[ 1 🩷 ]</b></a>
     &nbsp;
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C2"><b>[ 2 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C2"><b>[ 2 🩷 ]</b></a>
     &nbsp;
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C3"><b>[ 3 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C3"><b>[ 3 🩷 ]</b></a>
     &nbsp;
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C4"><b>[ 4 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C4"><b>[ 4 🩷 ]</b></a>
     &nbsp;
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C5"><b>[ 5 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C5"><b>[ 5 🩷 ]</b></a>
     &nbsp;
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C6"><b>[ 6 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C6"><b>[ 6 🩷 ]</b></a>
     &nbsp;
-    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cblue%7C7"><b>[ 7 🤍 ]</b></a>
+    <a href="https://github.com/Ruvaaa/Ruvaaa/issues/new?title=connect4%7Cdrop%7Cred%7C7"><b>[ 7 🩷 ]</b></a>
   </p>
 
   <br />
 
   <img
-    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/board.png?v=7"
+    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/board.png?v=8"
     alt="Connect 4 Board"
     width="350"
   />
@@ -191,7 +191,7 @@ I write about things I'm learning, building, and figuring out along the way.
   <br />
 
   <img
-    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/status.png?v=7"
+    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/status.png?v=8"
     alt="Connect 4 Game Status"
   />
 
