@@ -20,7 +20,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=FF69B4&center=true&vCenter=true&width=800&lines=Artificial+Intelligence+%C2%B7+Software+%C2%B7+Creative+Computing;Building+things.+Learning+things.+Breaking+things.;Deep+Learning+%C2%B7+Computer+Vision+%C2%B7+NLP;I+love+doing+stuff+that+seems+really+hard.;Let%27s+be+iconic."
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=FF69B4&center=true&vCenter=true&width=850&lines=Artificial+Intelligence+Student+%C2%B7+Developer;Deep+Learning+%C2%B7+Computer+Vision+%C2%B7+NLP;Building+things.+Learning+things.+Breaking+things.;Blog+Writer+%C2%B7+Tech+Explorer+%C2%B7+Creative+Builder;I+love+doing+stuff+that+seems+really+hard.;Let%27s+be+iconic."
     alt="Ruva's animated introduction"
   />
 </p>
