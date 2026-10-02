@@ -5,7 +5,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="banner.png" alt="Ruvaaa Header Banner" width="100%" />
+  <img src="AI Student GitHub Banner.png" alt="Ruvaaa Header Banner" width="100%" />
 </p>
 
 <br>
