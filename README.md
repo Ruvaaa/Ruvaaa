@@ -206,6 +206,25 @@ I write about things I'm learning, building, and figuring out along the way.
 </div>
 <!-- END CONNECT 4 GAME -->
 
+---
+
+## Latest Writing
+
+<a href="https://coderlegion.com/user/Ruvarashe+S+Nemaramba">
+  <img src="https://img.shields.io/badge/CoderLegion-My%20Profile-FF69B4?style=for-the-badge&logo=readthedocs&logoColor=white" alt="CoderLegion Profile"/>
+</a>
+
+### What Are APIs? And How Do They Work?
+
+My latest article on CoderLegion explores APIs, what they do, and how they allow applications to communicate.
+
+📄 **[Read the article →](https://coderlegion.com/31206/what-are-apis-and-how-do-they-work)**
+
+| 🏆 Points | 🎱 Badges | 👥 Followers | 📄 Posts |
+| :-------: | :-------: | :----------: | :------: |
+|    137    |     6     |       2      |     1    |
+
+**[Explore my CoderLegion profile →](https://coderlegion.com/user/Ruvarashe+S+Nemaramba)**
 
 ---
 
