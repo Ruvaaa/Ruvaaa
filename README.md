@@ -177,7 +177,7 @@ I write about things I'm learning, building, and figuring out along the way.
       <sub>Big dreams, little time, and a very long to-do list. Let's be iconic.</sub>
     </td>
     <td width="55%" align="center">
-      <img src="assets/world-map.svg" alt="Dot-matrix world map" width="100%" />
+      <img src="world-map.svg" alt="Dot-matrix world map" width="100%" />
     </td>
   </tr>
 </table>
