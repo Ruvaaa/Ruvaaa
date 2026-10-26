@@ -166,6 +166,24 @@ I write about things I'm learning, building, and figuring out along the way.
 
 ---
 
+# Building in public
+
+<table>
+  <tr>
+    <td width="45%" valign="top">
+      <p><b>Ruva</b> • third-year AI student</p>
+      <p>Teaching machines to see, read, and occasionally misbehave. I build things, break them, and write about what I learn along the way.</p>
+      <p><b>Currently into:</b> Deep Learning · Computer Vision · NLP</p>
+      <sub>Big dreams, little time, and a very long to-do list. Let's be iconic.</sub>
+    </td>
+    <td width="55%" align="center">
+      <img src="assets/world-map.svg" alt="Dot-matrix world map" width="100%" />
+    </td>
+  </tr>
+</table>
+
+---
+
 <!-- START CONNECT 4 GAME -->
 <div align="center">
 
