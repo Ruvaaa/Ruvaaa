@@ -50,13 +50,13 @@
       "blue",
       "red",
       "blue",
-      null,
+      "red",
       null,
       null
     ]
   ],
-  "turn": "red",
+  "turn": "blue",
   "status": "in_progress",
   "winner": null,
-  "moves": 8
+  "moves": 9
 }
