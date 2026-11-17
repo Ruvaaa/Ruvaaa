@@ -209,7 +209,7 @@ I write about things I'm learning, building, and figuring out along the way.
   <br />
 
   <img
-    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/board.png?v=14"
+    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/board.png?v=15"
     alt="Connect 4 Board"
     width="350"
   />
@@ -217,7 +217,7 @@ I write about things I'm learning, building, and figuring out along the way.
   <br />
 
   <img
-    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/status.png?v=14"
+    src="https://raw.githubusercontent.com/Ruvaaa/Ruvaaa/main/connect4/status.png?v=15"
     alt="Connect 4 Game Status"
   />
 
