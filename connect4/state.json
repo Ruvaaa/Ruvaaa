@@ -23,40 +23,40 @@
       null,
       null,
       null,
-      "red",
+      null,
       null,
       null
     ],
     [
-      "blue",
       null,
       null,
-      "blue",
-      "red",
+      null,
+      null,
+      null,
       null,
       null
     ],
     [
-      "red",
-      "red",
-      "blue",
-      "blue",
-      "red",
+      null,
+      null,
+      null,
+      null,
+      null,
       null,
       null
     ],
     [
-      "red",
-      "blue",
-      "red",
-      "blue",
-      "red",
-      "blue",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       null
     ]
   ],
   "turn": "red",
-  "status": "won",
-  "winner": "red",
-  "moves": 15
+  "status": "in_progress",
+  "winner": null,
+  "moves": 0
 }
